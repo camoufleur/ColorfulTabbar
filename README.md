@@ -12,7 +12,7 @@
 
 ###将图片的渲染模式改为`AlwaysOriginal`可以有两种方式
 
-1.  如下图所示：![](ImageAlwaysOriginal.png){ImgCap}图片渲染方式一{/ImgCap}
+1.  如下图所示：![图片渲染方式一](ImageAlwaysOriginal.png)
 
     适用于`Storyboard`中设置图片。
 2. 使用代码设置。例如：
@@ -107,4 +107,4 @@
         }
         @end
 
-- 如果不想自定义可以直接下载[Demo](http://example.com/ "Title")，直接拖到工程中；
+- 如果不想自定义可以直接下载[Demo](https://github.com/camoufleur/ColorfulTabbar)，直接拖到工程中；
