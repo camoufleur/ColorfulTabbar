@@ -2,7 +2,10 @@
 
 前一段时间项目有需求，在`TabbarController`不同的页面之间进行切换的时候`TabBarItem`的颜色（图标和Title）要跟着改变，所以研究了一下如何设置`TabbarItem`的颜色。
 
-**iOS10**之后苹果新增加了一个设置颜色的API:
+样式如下图所示：![Demo](Demo.gif)
+
+**iOS10**之后苹果新增加了一个设置颜色的API:
+
     tabBarController.tabBar.unselectedItemTintColor
 
 对于只适配**iOS10**以后的APP使用这个方法可以轻松修改`TabbarItem`的颜色，但是**iOS9**及以前版本的要修改成需要的颜色还是比较麻烦，查找各种文档没有找到直接设置`TabBarItem`的`Image`颜色的方法（各位大神如果发现欢迎指正），所以现在按照以下思路来解决：
