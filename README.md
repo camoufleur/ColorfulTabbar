@@ -2,7 +2,9 @@
 
 前一段时间项目有需求，在`TabbarController`不同的页面之间进行切换的时候`TabBarItem`的颜色（图标和Title）要跟着改变，所以研究了一下如何设置`TabbarItem`的颜色。
 
-样式如下图所示：![Demo](Demo.gif)
+样式如下图所示：
+
+![Demo](Demo.gif)
 
 **iOS10**之后苹果新增加了一个设置颜色的API:
 
